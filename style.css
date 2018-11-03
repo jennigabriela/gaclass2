@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #168675;
+    font-size: 36px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 400px;
+    padding: 20px;
+}
+#logo {
+    box-shadow: none;
+}
+a {
+    color: #7d7e7e;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    background-color: fuchsia;
+    padding: 20px;
+
+}
+#sloth {
+    background-color: gray;
+}
+#salmon {
+    background-color: salmon;
+}
+#tiger {
+    background-color: sienna;
+}
+#sheep {
+    background-color: steelblue;
+}
+.bird {
+    color: blue;
+    font-style: italic;
+}
+.mammal {
+    color: red;
+    font-weight: bold;
+}
+.fish {
+    color: orange;
+    text-decoration: underline;
+}
+
+section {
+    border-width: 3px;
+    border-color: plum;
+    border-style: dotted;
+}
+
+li {
+    border-top: 3px seagreen solid;
+    font-size: 30px;
+    text-indent: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
